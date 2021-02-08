@@ -26,7 +26,7 @@ public class PeopleResource {
 
     @GetMapping("/")
     public String greeting() {
-        return "<center><h1>Hello!</h1></center>";
+        return "<center><h1>Hello! Welcome to Ben's spring boot application!</h1></center>";
     }
     @GetMapping("/home")
     public String greetingHome() {

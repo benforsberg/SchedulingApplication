@@ -10,13 +10,13 @@ public class Role {
     @GeneratedValue
     private long id;
     private String roleName;
-    private int isAdmin;
+    private boolean isAdmin;
     private String personID;
 
     public Role() {
     }
 
-    public Role(long id, String roleName, int isAdmin, String personID) {
+    public Role(long id, String roleName, boolean isAdmin, String personID) {
         this.id = id;
         this.roleName = roleName;
         this.isAdmin = isAdmin;
@@ -39,11 +39,11 @@ public class Role {
         this.roleName = roleName;
     }
 
-    public int isAdmin() {
+    public boolean isAdmin() {
         return isAdmin;
     }
 
-    public void setAdmin(int admin) {
+    public void setAdmin(boolean admin) {
         isAdmin = admin;
     }
 

@@ -1,4 +1,4 @@
-package com.in28minutes.springboot.rest.example;
+package com.benforsberg.springboot.rest.example;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringBoot2RestServiceApplicationTests {
+public class ApplicationTests {
 
 	@Test
 	public void contextLoads() {
